@@ -52,13 +52,13 @@ export default function InputTags({limitTags}) {
     <Stack direction={{xs: 'column', sm: 'row' }} spacing={1}>
       <Stack spacing={2}>
         <Box 
-          boxShadow={5}
+          
           sx={{
             width: 420,
             padding: '10px 10px',
             border: '2px solid #0288d1 ',
             borderRadius: '5px',
-            backgroundColor: '#e1f5fe',
+            backgroundColor: 'white',
             height: 140,
           }}>
         {tagsValue.map((tag, index) => (

@@ -28,9 +28,10 @@ function App() {
     <RootStyle>
       <Container maxWidth="md">
         <ContentStyle>
-          <Typography variant="h3" gutterBottom>Input Tag Example</Typography>
+          <Typography variant="h3" gutterBottom sx={{textAlign: 'center'}} >
+            Input Tag Example</Typography>
             <InputTags limitTags={limitTags}/>
-          <Typography variant="h6" >Max: {limitTags+1} tags</Typography>
+          <Typography variant="h6" sx={{textAlign: 'center'}} >Max: {limitTags+1} tags</Typography>
         </ContentStyle>
       </Container>
     </RootStyle>
