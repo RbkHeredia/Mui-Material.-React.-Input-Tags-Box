@@ -20,7 +20,7 @@ export default function InputTags({limitTags}) {
     const trimmedInput = input.trim();
       if (tagsValue.length <= limitTags ){
 
-        if (key === ',' &&  trimmedInput.length && !tagsValue.includes(trimmedInput)) {
+        if ((key === ',' || key === 'Enter') &&  trimmedInput.length && !tagsValue.includes(trimmedInput)) {
           e.preventDefault();
           setTags(prevState => [...prevState, trimmedInput]);
           setInput('');
