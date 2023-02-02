@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Mui-Material.-React.-Input-Tags-Box/static/css/main.e6c13ad2.css",
+    "main.js": "/Mui-Material.-React.-Input-Tags-Box/static/js/main.320639fd.js",
+    "index.html": "/Mui-Material.-React.-Input-Tags-Box/index.html",
+    "main.e6c13ad2.css.map": "/Mui-Material.-React.-Input-Tags-Box/static/css/main.e6c13ad2.css.map",
+    "main.320639fd.js.map": "/Mui-Material.-React.-Input-Tags-Box/static/js/main.320639fd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.320639fd.js"
+  ]
+}
